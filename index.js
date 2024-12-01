@@ -16,10 +16,11 @@ const hashedPassword = bcrypt.hashSync("yordan123", 10);
 // simulacion tabla usuarios de una BD
 const users = [
   {
-    username: "yordan",
+    username: "YordanIvan",
     password: hashedPassword, 
   },
 ];
+
 
 // Ruta de login
 app.post("/login", async (req, res) => {
