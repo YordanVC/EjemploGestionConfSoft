@@ -5,7 +5,8 @@ content-type: application/json
   "username": "yordan",
   "password": "yordan123"
 }
+
 ###
-GET  http://localhost:3000/home HTTP/1.1  
-Authorization: Bearer 
+GET  http://localhost:3000/PaginaSegura HTTP/1.1  
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InlvcmRhbiIsImlhdCI6MTczMjYzODUyNywiZXhwIjoxNzMyNjQyMTI3fQ.DK00x5OPotnUlJ3Ofr1K3TC6Ok6n0L1Ajl7WWQVWEMk
 

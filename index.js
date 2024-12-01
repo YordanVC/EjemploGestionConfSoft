@@ -65,7 +65,7 @@ function authenticarToken(req, res, next) {
 
 
 // Ruta protegida
-app.get("/home", authenticarToken, (req, res) => {
+app.get("/PaginaSegura", authenticarToken, (req, res) => {
   res.json({
     message: "Bienvenido a la página de inicio.",
     user: req.user, 
